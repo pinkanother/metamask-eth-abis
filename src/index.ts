@@ -1,9 +1,5 @@
-/**
- * Example function that returns a greeting for the given name.
- *
- * @param name - The name to greet.
- * @returns The greeting.
- */
-export default function greeter(name: string): string {
-  return `Hello, ${name}!`;
-}
+import { abiERC20 } from './abis/abiERC20';
+import { abiERC721 } from './abis/abiERC721';
+import { abiERC1155 } from './abis/abiERC1155';
+
+export { abiERC20, abiERC721, abiERC1155 };

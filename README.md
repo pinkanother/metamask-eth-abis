@@ -1,22 +1,47 @@
-# MetaMask Module Template
+# MetaMask ETH ABIs
 
-This TypeScript module is maintained in the style of the MetaMask team.
+Node module to export the following ABIs:
+
+1. ERC20: Token Standard
+2. ERC721: Non-Fungible Token Standard
+3. ERC1155: Multi Token Standard
+
+Requires the web3 API to be available, either by initailizing it yourself, or using a web3-injecting Javascript environment, like MetaMask, Geth, or Mist.
 
 ## Installation
 
-`yarn add @metamask/this-module`
+`yarn add @metamask/metamask-eth-abis`
 
 or
 
-`npm install @metamask/this-module`
+`npm install @metamask/metamask-eth-abis`
 
 ## Usage
 
-_Add examples here_
+```js
+let { abiERC20 } = require('metamask-eth-abis');
 
-## API
+// ERC 20
 
-_Add examples here_
+let erc20Token = web3.eth.contract(abiERC20).at(contractAddress);
+
+erc20Token.name.call(function (err, name) {
+  if (err) {
+    console.log(err);
+  }
+  if (name) {
+    console.log('The token name is: ' + name);
+  }
+});
+
+erc20Token.symbol.call({ from: addr }, function (err, symbol) {
+  //ABI expects string here,
+  if (err) {
+    console.log(err);
+  }
+  console.log('Token symbol: ' + symbol);
+});
+```
 
 ## Contributing
 
