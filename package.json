@@ -1,7 +1,7 @@
 {
   "name": "@metamask/metamask-eth-abis",
-  "version": "1.0.0",
-  "description": "The MetaMask Node module template.",
+  "version": "2.0.0",
+  "description": "The MetaMask Node module for smart contracts ABIs.",
   "homepage": "https://github.com/MetaMask/metamask-eth-abis#readme",
   "bugs": {
     "url": "https://github.com/MetaMask/metamask-eth-abis/issues"
