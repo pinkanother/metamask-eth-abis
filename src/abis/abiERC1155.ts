@@ -322,4 +322,4 @@ export const abiERC1155 = [
     stateMutability: 'view',
     type: 'function',
   },
-];
+] as const;

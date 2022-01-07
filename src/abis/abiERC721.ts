@@ -373,4 +373,4 @@ export const abiERC721 = [
     name: 'ApprovalForAll',
     type: 'event',
   },
-];
+] as const;

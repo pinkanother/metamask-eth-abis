@@ -269,4 +269,4 @@ export const abiERC20 = [
     name: 'Approval',
     type: 'event',
   },
-];
+] as const;
