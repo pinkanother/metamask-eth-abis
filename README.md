@@ -5,8 +5,9 @@ Node module to export the following ABIs:
 1. ERC20: Token Standard
 2. ERC721: Non-Fungible Token Standard
 3. ERC1155: Multi Token Standard
+4. FiatTokenV2
 
-Requires the web3 API to be available, either by initailizing it yourself, or using a web3-injecting Javascript environment, like MetaMask, Geth, or Mist.
+Requires the web3 API to be available, either by initializing it yourself, or using a web3-injecting Javascript environment, like MetaMask, Geth, or Mist.
 
 ## Installation
 
