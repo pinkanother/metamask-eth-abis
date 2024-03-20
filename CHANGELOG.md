@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.1]
+### Fixed
+- Exports abiFiatTokenV2 ([#22](https://github.com/MetaMask/metamask-eth-abis/pull/22))
+
 ## [3.1.0]
 ### Added
 - Add FiatTokenV2 contract ([#20](https://github.com/MetaMask/metamask-eth-abis/pull/20))
@@ -24,7 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add ERC-20, ERC-721, and ERC-1155 ABIs ([#1](https://github.com/MetaMask/metamask-eth-abis/pull/1))
 
-[Unreleased]: https://github.com/MetaMask/metamask-eth-abis/compare/v3.1.0...HEAD
+[Unreleased]: https://github.com/MetaMask/metamask-eth-abis/compare/v3.1.1...HEAD
+[3.1.1]: https://github.com/MetaMask/metamask-eth-abis/compare/v3.1.0...v3.1.1
 [3.1.0]: https://github.com/MetaMask/metamask-eth-abis/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/MetaMask/metamask-eth-abis/compare/v2.1.0...v3.0.0
 [2.1.0]: https://github.com/MetaMask/metamask-eth-abis/compare/v2.0.0...v2.1.0
