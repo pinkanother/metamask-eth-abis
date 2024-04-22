@@ -6,6 +6,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.ts'],
+      excludedFiles: ['*.test.ts'],
       extends: ['@metamask/eslint-config-typescript'],
     },
 
@@ -19,7 +20,13 @@ module.exports = {
 
     {
       files: ['*.test.ts', '*.test.js'],
+      parserOptions: {
+        sourceType: 'module',
+      },
       extends: ['@metamask/eslint-config-jest'],
+      rules: {
+        'import/no-unresolved': 0,
+      },
     },
   ],
 
