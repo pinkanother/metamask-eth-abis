@@ -339,6 +339,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.0.tgz#a5417ae8427873f1dd08b70b3574b453e67b5f7f"
   integrity sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==
 
+"@eslint/js@^9.11.0":
+  version "9.24.0"
+  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.24.0.tgz#685277980bb7bf84ecc8e4e133ccdda7545a691e"
+  integrity sha512-uIY/y3z0uvOGX8cp1C2fiC4+ZmBhp6yZWkojtHL1YEMnRt1Y63HB9TM17proGEmeG7HeUY+UP36F0aknKYTpYA==
+
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.14.tgz#d78e481a039f7566ecc9660b4ea7fe6b1fec442b"
@@ -605,10 +610,13 @@
     semver "^7.3.5"
     yargs "^17.0.1"
 
-"@metamask/eslint-config-jest@^12.1.0":
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/@metamask/eslint-config-jest/-/eslint-config-jest-12.1.0.tgz#4218dff6f763e7f3bb6b29b4b50fb7d55014b500"
-  integrity sha512-5TdLDqdukUwHwC2tqOpO/mxFr3hf4HQWNilu0VYFhLV6ovS73KGFPdkRMBGpDkLfYoD17x3mt+3eq52oNMq1+g==
+"@metamask/eslint-config-jest@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@metamask/eslint-config-jest/-/eslint-config-jest-14.0.0.tgz#9403accee08a722276803b04b0c459b940ecb7d9"
+  integrity sha512-vxh22HnscqpAgPvnzTUW9VQ+YRdp758gzCWQJ7r0ylWKyhzSbf2aNxLVRQuu9P5rOd+ttHJ9pEGQItWPuubABw==
+  dependencies:
+    "@eslint/js" "^9.11.0"
+    globals "^15.9.0"
 
 "@metamask/eslint-config-nodejs@^12.1.0":
   version "12.1.0"
@@ -2538,6 +2546,11 @@ globals@^13.19.0:
   integrity sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==
   dependencies:
     type-fest "^0.20.2"
+
+globals@^15.9.0:
+  version "15.15.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-15.15.0.tgz#7c4761299d41c32b075715a4ce1ede7897ff72a8"
+  integrity sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==
 
 globalthis@^1.0.3:
   version "1.0.3"
